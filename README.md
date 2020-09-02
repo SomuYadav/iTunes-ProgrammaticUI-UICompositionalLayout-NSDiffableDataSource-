@@ -5,65 +5,47 @@ It's a programmatic UI demonstration by SnapKit, UICollectionViewCompositionalLa
 
 <p align="center">
 <a>
-<img src="images/Home1.png" width=350>
+<img src="Images/Home1.png" width=350>
 </a>
 <a>
-<img src="images/Home2.png" width= 350>
+<img src="Images/Home2.png" width= 350>
 </a>
 <a>
-<img src="images/Search1.png" width= 350>
+<img src="Images/Search1.png" width= 350>
 </a>
  <a>
-<img src="images/Search2.png" width= 350>
+<img src="Images/Search2.png" width= 350>
 </a>
 <a>
-<img src="images/Detail1.png" width= 350>
+<img src="Images/Detail1.png" width= 350>
 </a>
   <a>
-<img src="images/Detail2.png" width= 350>
+<img src="Images/Detail2.png" width= 350>
 </a>
   <a>
-<img src="images/Player1.png" width= 350>
+<img src="Images/Player1.png" width= 350>
 </a>
   <a>
-<img src="images/Player2.png" width= 350>
+<img src="Images/Player2.png" width= 350>
 </a>
 </p>
 
 ## White Mode
 <p align="center">
 <a>
-<img src="images/iPhoneHome1.png" width=270>
+<img src="Images/iPhoneHome1.png" width=270>
 </a>
 <a>
-<img src="images/iPhoneSearch2.png" width= 270>
+<img src="Images/iPhoneSearch2.png" width= 270>
 </a>
 <a>
-<img src="images/iPhoneAdd.png" width= 270>
+<img src="Images/iPhoneAdd.png" width= 270>
 </a>
  <a>
-<img src="images/iPhoneLove4.png" width= 270>
+<img src="Images/iPhoneLove4.png" width= 270>
 </a>
 <a>
-<img src="images/iPhoneProfile.png" width= 270>
+<img src="Images/iPhoneProfile.png" width= 270>
 </a>
 </p>
 
-## iPadOS
-
-<p align="center">
-<a>
-<img src="images/iPadHome.png" width=320>
-</a>
-<a>
-<img src="images/iPadSearch2.png" width= 320>
-</a>
-<a>
-<img src="images/iPadAdd1.png" width= 320>
-</a>
- <a>
-<img src="images/iPadLove1.png" width= 320>
-</a>
-<a>
-<img src="images/iPadProfile2.png" width= 320>
-</a>
