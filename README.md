@@ -30,19 +30,22 @@ It's a programmatic UI demonstration by SnapKit, UICollectionViewCompositionalLa
 ## White Mode
 <p align="center">
 <a>
-<img src="Images/iPhoneHome1.png" width=270>
+<img src="Images/DarkMode/HomeWhite1.png" width=270>
 </a>
 <a>
-<img src="Images/iPhoneSearch2.png" width= 270>
+<img src="Images/DarkMode/HomeWhite2.png" width= 270>
 </a>
 <a>
-<img src="Images/iPhoneAdd.png" width= 270>
+<img src="Images/DarkMode/SearchWhite1.png" width= 270>
 </a>
  <a>
-<img src="Images/iPhoneLove4.png" width= 270>
+<img src="Images/DarkMode/SearchWhite2.png" width= 270>
 </a>
 <a>
-<img src="Images/iPhoneProfile.png" width= 270>
+<img src="Images/DarkMode/DetailWhite1.png" width= 270>
+</a>
+<a>
+<img src="Images/DarkMode/DetailWhite2.png" width= 270>
 </a>
 </p>
 
