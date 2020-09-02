@@ -5,28 +5,25 @@ It's a programmatic UI demonstration by SnapKit, UICollectionViewCompositionalLa
 
 <p align="center">
 <a>
-<img src="Images/Home1.png" width=350>
+<img src="Images/DarkMode/Home1.png" width=350>
 </a>
 <a>
-<img src="Images/Home2.png" width= 350>
+<img src="Images/DarkMode/Home2.png" width= 350>
 </a>
 <a>
-<img src="Images/Search1.png" width= 350>
-</a>
- <a>
-<img src="Images/Search2.png" width= 350>
+<img src="Images/DarkMode/Search1.png" width= 350>
 </a>
 <a>
-<img src="Images/Detail1.png" width= 350>
+<img src="Images/DarkMode/Detail1.png" width= 350>
 </a>
   <a>
-<img src="Images/Detail2.png" width= 350>
+<img src="Images/DarkMode/Detail2.png" width= 350>
 </a>
   <a>
-<img src="Images/Player1.png" width= 350>
+<img src="Images/DarkMode/Player1.png" width= 350>
 </a>
   <a>
-<img src="Images/Player2.png" width= 350>
+<img src="Images/DarkMode/Player2.png" width= 350>
 </a>
 </p>
 
