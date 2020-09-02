@@ -8,9 +8,6 @@ It's a programmatic UI demonstration by SnapKit, UICollectionViewCompositionalLa
 <img src="Images/iPhone11/Home1.png" width=350>
 </a>
 <a>
-<img src="Images/iPhone11/Home2.png" width= 350>
-</a>
-<a>
 <img src="Images/iPhone11/Search1.png" width= 350>
 </a>
 <a>
@@ -31,9 +28,6 @@ It's a programmatic UI demonstration by SnapKit, UICollectionViewCompositionalLa
 <p align="center">
 <a>
 <img src="Images/iPhone11/HomeWhite1.png" width=270>
-</a>
-<a>
-<img src="Images/iPhone11/HomeWhite2.png" width= 270>
 </a>
 <a>
 <img src="Images/iPhone11/SearchWhite1.png" width= 270>
