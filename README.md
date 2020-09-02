@@ -16,6 +16,12 @@ It's a programmatic UI demonstration by SnapKit, UICollectionViewCompositionalLa
   <a>
 <img src="Images/iPhone11/Detail2.png" width= 350>
 </a>
+<a>
+<img src="Images/iPhone11/Player1.png" width= 350>
+</a>
+  <a>
+<img src="Images/iPhone11/Player2.png" width= 350>
+</a>
 </p>
 
 ## iPhone 11 White Mode
