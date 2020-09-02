@@ -30,22 +30,22 @@ It's a programmatic UI demonstration by SnapKit, UICollectionViewCompositionalLa
 ## White Mode
 <p align="center">
 <a>
-<img src="Images/WithoutMode/HomeWhite1.png" width=270>
+<img src="Images/WithoutDarkMode/HomeWhite1.png" width=270>
 </a>
 <a>
-<img src="Images/WithoutMode/HomeWhite2.png" width= 270>
+<img src="Images/WithoutDarkMode/HomeWhite2.png" width= 270>
 </a>
 <a>
-<img src="Images/WithoutMode/SearchWhite1.png" width= 270>
+<img src="Images/WithoutDarkMode/SearchWhite1.png" width= 270>
 </a>
  <a>
-<img src="Images/WithoutMode/SearchWhite2.png" width= 270>
+<img src="Images/WithoutDarkMode/SearchWhite2.png" width= 270>
 </a>
 <a>
-<img src="Images/WithoutMode/DetailWhite1.png" width= 270>
+<img src="Images/WithoutDarkMode/DetailWhite1.png" width= 270>
 </a>
 <a>
-<img src="Images/WithoutMode/DetailWhite2.png" width= 270>
+<img src="Images/WithoutDarkMode/DetailWhite2.png" width= 270>
 </a>
 </p>
 
