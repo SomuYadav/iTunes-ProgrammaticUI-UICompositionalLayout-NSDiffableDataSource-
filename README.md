@@ -1,7 +1,55 @@
 # ProgrammaticUI
 It's a programmatic UI demonstration by SnapKit, UICollectionViewCompositionalLayout, Debounce(For Search), Customised AVPlayerViewController, Apple's Native Highlighting cell methods and with MVVM Architecture. 
 
-## Dark Mode
+## iPhone 11 Dark Mode
+
+<p align="center">
+<a>
+<img src="Images/iPhone11/Home1.png" width=350>
+</a>
+<a>
+<img src="Images/iPhone11/Home2.png" width= 350>
+</a>
+<a>
+<img src="Images/iPhone11/Search1.png" width= 350>
+</a>
+<a>
+<img src="Images/iPhone11/Detail1.png" width= 350>
+</a>
+  <a>
+<img src="Images/iPhone11/Detail2.png" width= 350>
+</a>
+  <a>
+<img src="Images/iPhone11/Player1.png" width= 350>
+</a>
+  <a>
+<img src="Images/iPhone11/Player2.png" width= 350>
+</a>
+</p>
+
+## iPhone 11 White Mode
+<p align="center">
+<a>
+<img src="Images/iPhone11/HomeWhite1.png" width=270>
+</a>
+<a>
+<img src="Images/iPhone11/HomeWhite2.png" width= 270>
+</a>
+<a>
+<img src="Images/iPhone11/SearchWhite1.png" width= 270>
+</a>
+ <a>
+<img src="Images/iPhone11/SearchWhite2.png" width= 270>
+</a>
+<a>
+<img src="Images/iPhone11/DetailWhite1.png" width= 270>
+</a>
+<a>
+<img src="Images/iPhone11/DetailWhite2.png" width= 270>
+</a>
+</p>
+
+## iPhone 6 Dark Mode
 
 <p align="center">
 <a>
@@ -27,7 +75,7 @@ It's a programmatic UI demonstration by SnapKit, UICollectionViewCompositionalLa
 </a>
 </p>
 
-## White Mode
+## iPhone 6 White Mode
 <p align="center">
 <a>
 <img src="Images/WithoutDarkMode/HomeWhite1.png" width=270>
