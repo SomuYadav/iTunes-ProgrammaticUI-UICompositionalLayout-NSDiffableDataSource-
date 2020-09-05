@@ -1,5 +1,5 @@
 //
-//  iTunesUser.swift
+//  iTunessong.swift
 //  ProgrammaticUI
 //
 //  Created by Apple on 18/08/20.
@@ -23,7 +23,7 @@ struct Result: Codable,Hashable {
     var artistName, trackName: String?
     let trackCensoredName: String?
     let artistViewURL, collectionViewURL, trackViewURL: String?
-    let previewURL: String
+    let previewURL: String?
     let artworkUrl30, artworkUrl60, artworkUrl100: String?
     let collectionPrice: Double?
     let trackPrice: Double?

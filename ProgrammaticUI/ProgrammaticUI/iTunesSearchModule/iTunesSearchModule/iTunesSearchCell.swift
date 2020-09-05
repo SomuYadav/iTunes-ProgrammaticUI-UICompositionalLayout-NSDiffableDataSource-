@@ -1,5 +1,5 @@
 //
-//  iTunesUserTableViewCell.swift
+//  iTunessongTableViewCell.swift
 //  ProgrammaticUI
 //
 //  Created by Apple on 18/08/20.
@@ -9,7 +9,7 @@
 import UIKit
 import SnapKit
 
-class iTunesUserTableViewCell: UITableViewCell {
+class iTunessongTableViewCell: UITableViewCell {
     
     //MARK: - iTunesSearchVC UI Objects
      /// intialized all object with lazy due delay in intialization

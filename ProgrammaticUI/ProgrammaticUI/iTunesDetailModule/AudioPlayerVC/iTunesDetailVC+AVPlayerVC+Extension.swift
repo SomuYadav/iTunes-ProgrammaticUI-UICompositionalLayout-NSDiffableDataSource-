@@ -15,7 +15,7 @@ extension iTunesDetailVC {
     /// It is setting the minimizable AudioPayer
     @objc func setURLForAudioAndVideo() {
         //Player
-        let songURL = URL(string: "\(self.iTunesSongModel.previewURL)")
+        let songURL = URL(string: "\(self.iTunesSongModel.previewURL ?? "")")
         let player = AVPlayer(url: songURL!)
         let playerViewController = AVPlayerViewController()
         

@@ -1,5 +1,5 @@
 //
-//  iTunesUserTableViewCell+Constraint+UI+Extension.swift
+//  iTunessongTableViewCell+Constraint+UI+Extension.swift
 //  ProgrammaticUI
 //
 //  Created by Apple on 20/08/20.
@@ -9,8 +9,8 @@
 import Foundation
 import SDWebImage
 
-//MARK: - iTunesUserTableViewCell Model + UI + Constraints
-extension iTunesUserTableViewCell {
+//MARK: - iTunessongTableViewCell Model + UI + Constraints
+extension iTunessongTableViewCell {
     //MARK: - setUpUI()
     func setUpUI() {
         self.backgroundColor = .clear
@@ -43,18 +43,18 @@ extension iTunesUserTableViewCell {
     }
     
     //MARK: - configCellWithModel()
-    func configCellWithModel(_ user: Result) {
-        self.lblName.text  = user.trackName?.capitalized
-        self.lblURL.attributedText = AttributedString.setAttributedString("Artist. ",user.artistName?.capitalized ?? "")
-        self.lblDuration.text = TimeInterval(exactly: user.trackTimeMillis ?? 0)?.minuteSecondMS
-        self.imgProfile.sd_setImage(with: URL(string: user.artworkUrl100 ?? ""))
+    func configCellWithModel(_ song: Result) {
+        self.lblName.text  = song.trackName?.capitalized
+        self.lblURL.attributedText = AttributedString.setAttributedString("Artist. ",song.artistName?.capitalized ?? "")
+        self.lblDuration.text = TimeInterval(exactly: song.trackTimeMillis ?? 0)?.minuteSecondMS
+        self.imgProfile.sd_setImage(with: URL(string: song.artworkUrl100 ?? ""))
         
-        if let genre = user.primaryGenreName?.capitalized {
+        if let genre = song.primaryGenreName?.capitalized {
             self.lblGenre.attributedText = AttributedString.setAttributedString("Genre. ",genre)
         }
         
-        if let price = user.trackPrice {
-            self.lblPrice.text = user.currency?.getPriceWithSymbol(price)//(price.getPriceWithSymbol)
+        if let price = song.trackPrice {
+            self.lblPrice.text = song.currency?.getPriceWithSymbol(price)//(price.getPriceWithSymbol)
         } else {
             self.lblPrice.text  = "Free"
         }

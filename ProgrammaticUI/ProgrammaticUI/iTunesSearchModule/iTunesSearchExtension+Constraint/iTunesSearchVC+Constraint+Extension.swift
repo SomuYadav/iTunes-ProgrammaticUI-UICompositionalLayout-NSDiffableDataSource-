@@ -86,7 +86,7 @@ extension iTunesSearchVC {
         
         self.tbliTunes.backgroundColor    = .clear
         self.tbliTunes.estimatedRowHeight = UITableView.automaticDimension
-        self.tbliTunes.register(iTunesUserTableViewCell.self)
+        self.tbliTunes.register(iTunessongTableViewCell.self)
 
         self.view.addSubview(tbliTunes)
         self.view.addSubview(self.loader)
@@ -100,7 +100,7 @@ extension iTunesSearchVC {
      //MARK: - setDataSource()
     func setDataSource() {
         datasource = UITableViewDiffableDataSource<Section,Result>(tableView: tbliTunes, cellProvider: { (tableView, indexPath, item) -> UITableViewCell? in
-            let cell = tableView.dequeueReusableCell(ofType: iTunesUserTableViewCell.self, for: indexPath)
+            let cell = tableView.dequeueReusableCell(ofType: iTunessongTableViewCell.self, for: indexPath)
             cell.configCellWithModel(item)
             cell.selectionStyle = .none
             return cell

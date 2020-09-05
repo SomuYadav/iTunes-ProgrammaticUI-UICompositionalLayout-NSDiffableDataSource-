@@ -10,7 +10,7 @@ import UIKit
 
 class iTunesSaveOfflineCell: UICollectionViewCell {
     
-    /// it is a save label title,which will show user have to save offline data or have to delate data from offline.
+    /// it is a save label title,which will show song have to save offline data or have to delate data from offline.
     lazy var lblSave: UILabel = {
         let lblSave  = UILabel()
         lblSave.textAlignment = .center
@@ -20,7 +20,7 @@ class iTunesSaveOfflineCell: UICollectionViewCell {
     }()
     
     
-    /// it is showing the status of user's offline and Set data   corresponding  to online/offline
+    /// it is showing the status of song's offline and Set data   corresponding  to online/offline
     var isOffline: Bool = false {
         didSet {
             if isOffline {

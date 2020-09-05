@@ -21,7 +21,7 @@ class ProgrammaticUITests: XCTestCase {
     func testiTunesSongs() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
-        let _ = iTunesSearchViewModel.getiTunesUsers(searchUser: "Alan Walker") { result in
+        let _ = iTunesSearchViewModel.getiTunessongs(searchsong: "Alan Walker") { result in
             XCTAssert(true, "Test Case Passed")
         }
     }
@@ -29,7 +29,7 @@ class ProgrammaticUITests: XCTestCase {
     func testPerformanceiTunesSongs() throws {
         // This is an example of a performance test case.
         self.measure {
-           let _ = iTunesSearchViewModel.getiTunesUsers(searchUser: "Alan Walker") { result in
+           let _ = iTunesSearchViewModel.getiTunessongs(searchsong: "Alan Walker") { result in
                
             }
         }

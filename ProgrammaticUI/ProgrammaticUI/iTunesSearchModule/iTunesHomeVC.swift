@@ -58,7 +58,7 @@ class iTunesHomeVC: UIViewController {
         let searchVC = UISearchController(searchResultsController: vc)
         searchVC.searchResultsUpdater = vc
         searchVC.obscuresBackgroundDuringPresentation = true
-        searchVC.searchBar.placeholder = "Search User's"
+        searchVC.searchBar.placeholder = "Search song's"
         setNavBar(searchVC)
     }
     

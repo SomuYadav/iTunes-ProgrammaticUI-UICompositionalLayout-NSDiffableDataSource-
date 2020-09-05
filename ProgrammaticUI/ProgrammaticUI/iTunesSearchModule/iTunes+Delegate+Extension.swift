@@ -56,7 +56,7 @@ extension iTunesHomeVC {
     func setUpUI() {
         self.tbliTunes.delegate   = self
         datasource = MyDataSource(tableView: tbliTunes, cellProvider: { (tableView, indexPath, item) -> UITableViewCell? in
-            let cell = tableView.dequeueReusableCell(ofType: iTunesUserTableViewCell.self, for: indexPath)
+            let cell = tableView.dequeueReusableCell(ofType: iTunessongTableViewCell.self, for: indexPath)
             cell.configCellWithModel(item)
             cell.selectionStyle = .none
             return cell
@@ -64,7 +64,7 @@ extension iTunesHomeVC {
     
         self.tbliTunes.backgroundColor    = .clear
         self.tbliTunes.estimatedRowHeight = UITableView.automaticDimension
-        self.tbliTunes.register(iTunesUserTableViewCell.self)
+        self.tbliTunes.register(iTunessongTableViewCell.self)
 
         self.view.addSubview(tbliTunes)
         self.setUpConstraints()
@@ -77,7 +77,7 @@ extension iTunesHomeVC {
     func setEmptyText() {
         self.emptyTxt  = UILabel()
         emptyTxt.font = UIFont.preferredFont(forTextStyle: .title3)
-        emptyTxt.text = "Search users, go to detail page and saved it. user will appear here!"
+        emptyTxt.text = "Search songs, go to detail page and saved it. songs will appear here!"
         emptyTxt.sizeToFit()
         emptyTxt.textAlignment = .center
         emptyTxt.textColor     = .label

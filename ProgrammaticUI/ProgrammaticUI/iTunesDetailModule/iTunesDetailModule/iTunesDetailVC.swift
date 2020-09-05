@@ -20,7 +20,7 @@ class iTunesDetailVC: UIViewController {
     /// it represent the collection view cell
     enum RowType: Hashable {
         case saveButton
-        case personInfo(userInfo: iTunesResult)
+        case personInfo(songInfo: iTunesResult)
     }
     
     /// it represent what kind of axis you want in collection view cell
@@ -109,14 +109,14 @@ class iTunesDetailVC: UIViewController {
         switch type {
         case .saved(let model):
             iTunesSongModel = model.item
-            self.snapShot.appendItems([RowType.personInfo(userInfo: model.item)], toSection: .portfolio)
+            self.snapShot.appendItems([RowType.personInfo(songInfo: model.item)], toSection: .portfolio)
             self.dataSource.apply(self.snapShot)
             title  = model.item.trackName
             self.title = title?.getSubstringForHeader()
             self.dataSource.apply(self.snapShot)
         case .online:
             self.snapShot.appendItems([RowType.saveButton], toSection: .actions)
-            self.snapShot.appendItems([RowType.personInfo(userInfo: self.iTunesSongModel)], toSection: .portfolio)
+            self.snapShot.appendItems([RowType.personInfo(songInfo: self.iTunesSongModel)], toSection: .portfolio)
             self.dataSource.apply(self.snapShot)
             title  = self.iTunesSongModel?.trackName
             self.title = title?.getSubstringForHeader()
@@ -161,7 +161,7 @@ class iTunesDetailVC: UIViewController {
             
             switch section {
                 case .portfolio:
-                    return self.createUserPortfolioSection()
+                    return self.createsongPortfolioSection()
                 case .actions:
                     return self.createActionSection()
             }
@@ -206,15 +206,15 @@ class iTunesDetailVC: UIViewController {
         return section
     }
     
-    //MARK: -  createUserPortfolioSection()
-    ///  Created createUserPortfolioSection
+    //MARK: -  createsongPortfolioSection()
+    ///  Created createsongPortfolioSection
     /// - Returns: it will return section
-    func createUserPortfolioSection() -> NSCollectionLayoutSection {
+    func createsongPortfolioSection() -> NSCollectionLayoutSection {
         let edge = NSDirectionalEdgeInsets(top: 10, leading: 20, bottom: 10, trailing: 20)
         return self.createSection(false,0,.vertical,(false,nil),edge,130)
     }
     
-    //MARK: - createUserPortfolioSection()
+    //MARK: - createsongPortfolioSection()
     /// Created createActionSection
     /// - Returns: it will return section
     func createActionSection() -> NSCollectionLayoutSection {

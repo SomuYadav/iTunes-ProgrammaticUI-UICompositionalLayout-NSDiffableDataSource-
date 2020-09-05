@@ -1,5 +1,5 @@
 //
-//  iTunesUserDetailModel.swift
+//  iTunessongDetailModel.swift
 //  ProgrammaticUI
 //
 //  Created by Apple on 20/08/20.
@@ -12,7 +12,7 @@ typealias iTunesResult  = Result
 
 /// it is representing a  Persist Container
 struct PersistModel: Codable {
-    ///it is representing user info
+    ///it is representing song info
     var item: Result
     
     /// it is representing  to store data in  FileManager

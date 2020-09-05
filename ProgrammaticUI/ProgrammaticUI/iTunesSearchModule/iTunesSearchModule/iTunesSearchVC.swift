@@ -12,7 +12,7 @@ import Moya
 class iTunesSearchVC: UIViewController {
     
     /// necessadry to give one section, so declared it as main
-    enum Section{
+    enum Section {
         case main
     }
     
@@ -32,20 +32,20 @@ class iTunesSearchVC: UIViewController {
         self.setUpUI()
     }
     
-    ///  search users by  query, pass searched text in query
+    ///  search songs by  query, pass searched text in query
     /// - Parameter query: Search text
     func search(query: String) {
         cancellable?.cancel()
         loader.tintColor = .label
         self.loader.startAnimating()
-        cancellable = iTunesSearchViewModel.getiTunesUsers(searchUser: query) { result in
+        cancellable = iTunesSearchViewModel.getiTunessongs(searchsong: query) { result in
             self.tbliTunes.beginUpdates()
             self.loader.stopAnimating()
             switch result {
-            case .success(let users):
+            case .success(let songs):
                 self.snapshot.deleteAllItems()
                 self.snapshot.appendSections([.main])
-                self.snapshot.appendItems(users, toSection: .main)
+                self.snapshot.appendItems(songs, toSection: .main)
                 self.datasource.apply(self.snapshot)
                 
             case .failure:
@@ -60,7 +60,7 @@ class iTunesSearchVC: UIViewController {
     }
     
     ///  when found search result then, push next controller by call back  because on presented controller you can't push your push controller
-    /// - Parameter action: pass user info or object which is declared as item
+    /// - Parameter action: pass song info or object which is declared as item
     func showDetail(_ action: @escaping (Result) -> Void) {
         self.showDetailHook = action
     }
