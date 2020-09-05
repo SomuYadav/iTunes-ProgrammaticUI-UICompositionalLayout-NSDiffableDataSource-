@@ -24,7 +24,7 @@ It's a programmatic UI demonstration by SnapKit, UICollectionViewCompositionalLa
 </a>
 </p>
 
-## iPhone 11 White Mode
+## iPhone 11 Light Mode
 <p align="center">
 <a>
 <img src="Images/iPhone11/HomeWhite1.png" width=270>
@@ -69,7 +69,7 @@ It's a programmatic UI demonstration by SnapKit, UICollectionViewCompositionalLa
 </a>
 </p>
 
-## iPhone 6 White Mode
+## iPhone 6 Light Mode
 <p align="center">
 <a>
 <img src="Images/WithoutDarkMode/HomeWhite1.png" width=270>
