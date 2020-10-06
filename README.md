@@ -1,7 +1,7 @@
 # ProgrammaticUI
 It's a programmatic UI demonstration by SnapKit, UICollectionViewCompositionalLayout, Debounce(For Search), Customised AVPlayerViewController,Marquee Effect, Apple's Native Highlighting cell methods and with MVVM Architecture.
 
-<img src="Images/CompostionLayout.jpg.png">
+<img src="Images/CompostionLayout.jpg">
 
 ## iPhone 11 Dark Mode
 
